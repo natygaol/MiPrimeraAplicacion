@@ -1,0 +1,15 @@
+ls - Muestra las carpetas y archivos en la terminal
+pwd - Te indica donde estás ubicado actualmente
+cd NombreDeLaCarpeta - Navegar internamente a una carpetas
+cd .. - salir de la carpeta actual 
+mkdir NombreDeLaCarpeta - crear una carpeta nueva
+toucher NombreDelArchivo.extension - Crear un nuevo archivo
+rm NombreDelArchivo/NombreDeLaCarpeta - Eliminar un archivo o carpeta
+rm -d NombreDelDirectorio - Eliminar un directorio
+
+Comandos de Git
+1) git init - inicializa una carpeta como un repositorio localmente
+2) git add NombreDelArchivo git add . - Incluir archivos para que se suban a github 
+3) git commit -m "Primer commit, agregando archivo de ejemplo.txt"
+4) git remote add url-del-github
+5) git push -u origin master  git push -u origin main
